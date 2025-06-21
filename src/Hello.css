@@ -1,0 +1,30 @@
+h1 {
+    color:rgb(0, 0, 0);
+}
+h1:hover{
+    color:rgb(255, 2, 2);
+    font-size: 45px;
+    background: #00ffe7;
+background: linear-gradient(250deg,#00ffe7 0%, rgba(17,197,17,0.72) 80%);
+background: -webkit-linear-gradient(250deg,#00ffe7 0%, rgba(17,197,17,0.72) 80%);
+background: -moz-linear-gradient(250deg,#00ffe7 0%, rgba(17,197,17,0.72) 80%);
+}
+img{
+border: 2px dotted #ffaf50;
+box-shadow: 10px 2px 15px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 2px 15px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 2px 15px 1px rgba(0,0,0,0.75);
+border-radius: 5%;
+filter: grayscale(2%) sepia(11%) brightness(95%) saturate(283%) contrast(97%) invert(2%);
+-webkit-filter: grayscale(2%) sepia(11%) brightness(95%) saturate(283%) contrast(97%) invert(2%);
+-moz-filter: grayscale(2%) sepia(11%) brightness(95%) saturate(283%) contrast(97%) invert(2%);
+transform: rotate(19deg);
+-webkit-transform: rotate(19deg);
+-moz-transform: rotate(19deg);
+}
+img:hover{
+    transform: rotate(133deg);
+-webkit-transform: rotate(133deg);
+-moz-transform: rotate(133deg);
+}
+
