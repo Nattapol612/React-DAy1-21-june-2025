@@ -1,15 +1,22 @@
+ 
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './nice.css';
+//import './Hello.css';
 //import App from './App';
 //import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
 import Counter from './Counter';
+import Backpack from './Backpack';
+import BMI from './BMI';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Counter/>
+      {/*<Counter/>}
+      {/*<Backpack/>*/}
+      <BMI/>
     {/*<App /> */}
   </React.StrictMode>
 );
